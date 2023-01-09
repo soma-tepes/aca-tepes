@@ -2,6 +2,7 @@
 
 .container{
 
+    width: 98% ;
     display: grid;
    /* grid-template-columns: repeat(3, 1fr);*/
     border: 1px solid black;
@@ -25,8 +26,8 @@
      }
      .aite{ 
         border: 1px solid aqua;
-        height: 90%;
-        width: 90%;
+        height: 60%;
+        width: 80%;
         display: grid;
         align-items: center;
         justify-content: right;
@@ -63,7 +64,7 @@
     padding-top: 20px;
     padding-bottom: 20px;
     height: 600px;
-    width: 90%;
+   
     border: 1px solid black;
     grid-template-areas: 
             "div menu"
@@ -72,11 +73,12 @@
             "div4 menu"
             "div5 menu";
           
-    width: 90vw;
+    width: 80vw;
+    
     
 }
 .box > div{ border: 1px solid black;}
-.div1{font-family:Noto Sans, sans-serif;font-size: 110px; grid-area: div;}
+.div1{font-family:Noto Sans, sans-serif;font-size: 100px; grid-area: div;}
 .div2{font-family: arial;font-size: 35px;grid-area: div2;} 
 .div3{font-family: arial;font-size: 30px;grid-area: div3;}
 .div4{font-family: arial;font-size: 40px;grid-area: div4;}
@@ -137,7 +139,7 @@
 
 .hanckook{
     height: 90%;
-    width: 89%;
+    width: 80vw;
     border: 1px solid rgb(31, 219, 6);
     display: grid;
     grid-template-areas: "tittle  Exp"
@@ -208,7 +210,7 @@
 
 .boxii{ 
     grid-area: Exp;
-   border: 1px solid black;
+    border: 1px solid black;
     display: grid;
     
 }
@@ -232,16 +234,18 @@
     
 
 }
-.nu{height: 90%;width: 70%;
+.nu{
+    height: 90%;width: 70%;
     border: 1px solid black;
     display: flex;
     align-items: center; justify-content: center;
-     gap: 10%;
-   text-align: center;
-   font-size: 20px;
+    gap: 10%;
+    text-align: center;
+    font-size: 20px;
 }
 .nu div {border: 1px solid black;
-height: 80%;width: 90%;}
+         height: 80%;
+         width: 90%;}
 
 
 
@@ -266,7 +270,7 @@ height: 80%;width: 90%;}
 
      .bukele{
         height: 90%;
-        width: 90%;
+        width: 80vw;
         border: 1px solid black;
         display: grid;
         grid-template-areas: "secto "
@@ -291,7 +295,7 @@ height: 80%;width: 90%;}
       gap: 10%;
       
     }
-   .mafu  img { height: 30vh;}
+   .mafu  img { height: 14vw;}
    .mafu  p { font-size: 30px;  color: #8e7bef;}
 
 /*section 4 */
@@ -310,8 +314,9 @@ height: 80%;width: 90%;}
 
      .conti{
         height: 90%;
-        width: 90%;
+        width: 80vw;
         border: 1px solid black;
+        
       
      }
 
@@ -343,7 +348,7 @@ height: 80%;width: 90%;}
         justify-content: center;
         align-items: center;
          padding-top: 70px;
-        
+       
     }
 
  

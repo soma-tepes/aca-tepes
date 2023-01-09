@@ -29,7 +29,7 @@
      }
      
      .nav{
-        width: 70vw;
+        width: 73vw;
         border: 1px solid rgb(230, 9, 9);
         display: flex;
         justify-content: center;
@@ -37,8 +37,7 @@
         align-items: center;
         }
   
-      .nav > div{ border: 1px solid rgb(16, 228, 55);font-size: 18px; font-family: sans-serif;}
-      .nav div:nth-child(2){ font-size: 14px; text-align: center;}
+      .nav > div{ border: 1px solid black;font-size: 20px; font-family: sans-serif;}
       .nav div:nth-child(1){ color:blueviolet}
       .nav div:hover{color:blueviolet}
 /*fin nav */
