@@ -3,6 +3,7 @@
 .container{
 
     width: 98% ;
+    gap: 1%;
     display: grid;
    /* grid-template-columns: repeat(3, 1fr);*/
     border: 1px solid black;
@@ -118,7 +119,7 @@
     height: 70vh;
     width: 32vw;
     border: 1px solid black;
-    background-image: url(photo.png);
+    background-image: url(photo2.png);
     background-size: cover;
     
 }
@@ -143,8 +144,8 @@
 .item3 { grid-area: section;
     
     background-color: #fcda68;
-    border: 1px solid rgb(183, 0, 255);
-    height: 820px;
+    border: 1px solid rgb(231, 13, 13);
+    height: 80vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -286,6 +287,7 @@
 .item4 { grid-area: section2;
      border: 1px solid rgb(235, 18, 119);
      height: 60vh;
+     
      display: flex;
      justify-content: center;
      align-items: center; }

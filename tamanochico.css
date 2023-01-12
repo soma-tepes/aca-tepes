@@ -74,8 +74,8 @@ grid-template-areas:
         "div6"
         "div5 "
         ;
-        grid-template-rows: .5fr .5fr .5fr .5fr 5fr .5fr;
-        gap: 2%;
+        grid-template-rows: .5fr .5fr .5fr .5fr 8fr .5fr;
+        gap: 3%;
       
 
 
@@ -92,8 +92,8 @@ grid-template-areas:
            
 .box div:nth-child(5){grid-area: div5; display: flex;}
 
-.em{color:#ef7b7b;  
-}
+/* .em{color:#ef7b7b;  
+} */
 
 .boton{display: flex; gap: 12%; align-items: center;}
 .box div:nth-child(6){ grid-area: div6;
@@ -127,14 +127,14 @@ background-repeat: no-repeat;
 
 .item3 { grid-area: section;
   
-    background-color: #f80a51;
+    /* background-color: #f80a51; */
     border: 1px solid rgb(183, 0, 255);
-    height: 1300px;
+    height: 1500px;
     display: flex;
     align-items: center;
     justify-content: center;
-   width:96vw;
-   margin: 0;
+   width:98vw;
+   margin: -10px;
     
 
 }
@@ -283,7 +283,7 @@ height: 80%;width: 90%;}
                             "mafu  "
                            ;
        
-       grid-template-rows: 50px 1fr;          
+       grid-template-rows: 50px 1.5fr;          
        
        }
 
@@ -309,7 +309,7 @@ height: 80%;width: 90%;}
 /*section 4 */
 /* .mafu{ padding-left: 15%;} */
 .mafu  img { 
-    height: 45vh;
+    height: 40vh;
     width:  80vw;}
 
 /*setion 5*/

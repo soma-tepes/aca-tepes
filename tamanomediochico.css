@@ -73,7 +73,7 @@ grid-template-areas:
         "div6"
         "div5 "
         ;
-        grid-template-rows: .5fr .5fr .5fr .5fr 5fr .5fr;
+        grid-template-rows: .5fr .5fr .5fr .5fr 8fr .5fr;
         gap: 2%;
       
 
@@ -159,14 +159,14 @@ background-color: #7bb1ef;
 
 .item3 { grid-area: section;
   
-    background-color: #f80a51;
+     /* background-color: #f80a51;  */
     border: 1px solid rgb(183, 0, 255);
     height: 1300px;
     display: flex;
     align-items: center;
     justify-content: center;
-   width:96vw;
-   margin: 0;
+   width:98vw;
+   margin: -20px
     
 
 }
