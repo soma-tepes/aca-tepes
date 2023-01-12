@@ -120,6 +120,40 @@ background-color: #7bb1ef;
 
 /*fin section 2*/
 
+
+.box > div{ border: 1px solid black;}
+.div1{font-family: 'Roboto', sans-serif;font-size: 100px; grid-area: div;
+
+    font-weight: 700; 
+}
+.div2{font-family: arial;font-size: 35px;grid-area: div2;} 
+.div3{font-family: arial;font-size: 30px;grid-area: div3;}
+.opaco{ opacity: .5;}
+
+.box div img{border: 1px solid rgb(0, 255, 85); grid-area: div4;
+   
+    display: flex; 
+    gap: 5%;
+    height:40px; 
+   width: 40px;
+}
+
+
+.box div:nth-child(5){border: 1px solid yellow;}
+.em{color:#8e7bef;  
+}
+
+
+.bot{ 
+
+    background-color: #8E7BEF;
+     color: white;
+      padding: 2% 17%; font-size: 20px;
+    display: flex; align-items: center;
+}
+.bot img{ height: 10px;}
+
+
 /*section 3*/
 
 
@@ -289,19 +323,24 @@ height: 80%;width: 90%;}
    .secto{
        grid-area: secto;
        border: 1px solid rgb(0, 119, 255);
-    
+     
        font-size: 40px;
+      
    }
    .mafu{
        grid-area: mafu;
        border: 1px solid rgb(0, 255, 34);
       display: flex;
       flex-direction: column;
-     gap: 1%;
+      gap: 1%;
+      width: 90%;
+     padding-left: 7%;
      
    }
-  .mafu  img { height: 450px;
-               width: 95vw;                 }
+  .mafu  img {  height: 60vh;
+    width:  80vw;
+    
+                                }
   .mafu  p { font-size: 30px;  color: #8e7bef;}
 
 /*section 4 */

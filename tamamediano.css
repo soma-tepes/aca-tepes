@@ -25,7 +25,7 @@
 
      }
      .aite{ 
-        border: 1px solid rgb(255, 0, 93);
+        border: 1px solid rgb(200, 255, 0);
         height: 60%;
         width: 75vw;
         display: grid;
@@ -51,18 +51,19 @@
 
 
  .item2 {  grid-area: header;
+    background-color: #8E7BEF;
             border: 1px solid orange;
             height: auto;
             display: flex; 
             align-items: center;
             justify-content: center;
-            width: 100%;
+            width: 98vw;
            }       
             
 .box{ 
     display: grid;
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 100px;
     height: 600px;
    
     border: 1px solid black;
@@ -77,33 +78,46 @@
     
     
 }
-.box > div{ border: 1px solid black;}
-.div1{font-family:Noto Sans, sans-serif;font-size: 80px; grid-area: div;}
-.div2{font-family: arial;font-size: 25px;grid-area: div2;} 
-.div3{font-family: arial;font-size: 20px;grid-area: div3;}
-.div4{font-family: arial;font-size: 10px;grid-area: div4;}
-.div5{font-family: arial;font-size: 10px;grid-area: div5;}
 
+.box > div{ border: 1px solid black;}
+.div1{font-family: 'Roboto', sans-serif;font-size: 80px; grid-area: div;
+
+    font-weight: 700; 
+}
+.div2{font-family: arial;font-size: 25px;grid-area: div2;} 
+.div3{font-family: arial;font-size: 30px;grid-area: div3;}
+.opaco{ opacity: .5;}
+
+.box div:nth-child(4){border: 1px solid rgb(0, 255, 85); grid-area: div4;
+   
+    display: flex; 
+    gap: 5%;
+    height:5vw; 
+   
+}
+
+
+.box div:nth-child(5){border: 1px solid yellow;}
 .em{color:#8e7bef;  
 }
 
-.boton{display: flex; gap: 12%; align-items: center;}
+/* .boton{display: flex; gap: 12%; align-items: center;} */
 .div6{ 
     grid-area: menu;
-    height: 65vh;
-    width: 25vw;
+    height: 70vh;
+    width: 35vw;
     border: 1px solid black;
-    background-image: url(photo2.PNG);
+    background-image: url(photo2.png);
     background-size: cover;
     
 }
 .bot{ 
+
     background-color: #8E7BEF;
-      border:none; color: white;
+     color: white;
       padding: 2% 17%; font-size: 20px;
+    display: flex; gap: 10%;
 }
-
-
 
 
 
@@ -131,7 +145,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-   margin: 0;
+   margin-left: 25px;margin-right: -25px;
     
 
 }
@@ -160,8 +174,8 @@
 
     
 }
-.boxi div:nth-child(1){ color: rgb(5, 5, 5); font-size: 80px;}
-.boxi div:nth-child(2){ color: rgb(16, 15, 17); font-size: 30px;}
+.boxi div:nth-child(1){ color: rgb(5, 5, 5); font-size: 60px;}
+.boxi div:nth-child(2){ color: rgb(16, 15, 17); font-size: 20px;}
 .boxi > div{
  flex: auto;
  border: 1px solid rgb(226, 18, 18);
