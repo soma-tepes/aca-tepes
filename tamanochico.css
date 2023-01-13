@@ -61,8 +61,8 @@
         
 .box{ 
 display: grid;
-padding-top: 30px;
-padding-bottom: 20px;
+padding-top: 1px;
+
 height:auto;
 width: auto;
 
@@ -74,8 +74,8 @@ grid-template-areas:
         "div6"
         "div5 "
         ;
-        grid-template-rows: .5fr .5fr .5fr .5fr 8fr .5fr;
-        gap: 3%;
+        grid-template-rows: .5fr .5fr .5fr .5fr 5fr .5fr;
+        gap: auto;
       
 
 
@@ -153,7 +153,7 @@ background-repeat: no-repeat;
            grid-template-columns: auto;
            grid-template-rows: 1fr 1fr .1fr .1fr;
           
-gap: 6%;
+gap:auto;
 /* margin-right: 30px; */
 }
 
@@ -264,11 +264,12 @@ height: 80%;width: 90%;}
 
 .item4 { grid-area: section2;
     
-    height: 1500px;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center; 
- width: 96vw;}
+ width: 96vw;
+padding-bottom: 5%;}
 
 
 

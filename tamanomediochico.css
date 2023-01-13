@@ -51,7 +51,7 @@
 /*section */
     .item2 {  grid-area: header;
        
-        width: 96vw;
+        width: 98vw;
         height: auto;
         display: flex; 
         align-items: center;
@@ -166,7 +166,7 @@ background-color: #7bb1ef;
     align-items: center;
     justify-content: center;
    width:98vw;
-   margin: -20px
+   margin-left: -25px; margin-right: -25px;
     
 
 }
