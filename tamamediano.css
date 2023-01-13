@@ -5,7 +5,7 @@
     width: 98% ;
     display: grid;
    /* grid-template-columns: repeat(3, 1fr);*/
-    border: 1px solid black;
+    /* border: 1px solid black; */
     grid-template-areas: "nav  "
                          "header "
                          "section "
@@ -17,7 +17,7 @@
 
 .item1 { grid-area: nav;
     height: 100px;
-    border: 1px solid orange;
+    /* border: 1px solid orange; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -25,7 +25,7 @@
 
      }
      .aite{ 
-        border: 1px solid rgb(200, 255, 0);
+        /* border: 1px solid rgb(200, 255, 0); */
         height: 60%;
         width: 75vw;
         display: grid;
@@ -35,12 +35,12 @@
        
      }
      .nav{
-        border: 1px solid black;
+        /* border: 1px solid black; */
         display: flex;
         gap: 3rem;
         }
   
-      .nav > div{ border: 1px solid black;font-size: 20px; font-family: sans-serif;}
+      .nav > div{ font-size: 20px; font-family: sans-serif;}
       .nav div:nth-child(1){ color:blueviolet}
       .nav div:hover{color:blueviolet}
 
@@ -52,7 +52,7 @@
 
  .item2 {  grid-area: header;
     /* background-color: #8E7BEF; */
-            border: 1px solid orange;
+           
             height: auto;
             display: flex; 
             align-items: center;
@@ -68,7 +68,7 @@
     padding-bottom: 100px;
     height: 600px;
    
-    border: 1px solid black;
+ 
     grid-template-areas: 
             "div menu"
             "div2 menu"
@@ -81,7 +81,7 @@
     
 }
 
-.box > div{ border: 1px solid black;}
+
 .div1{font-family: 'Roboto', sans-serif;font-size: 80px; grid-area: div;
 
     font-weight: 700; 
@@ -90,7 +90,7 @@
 .div3{font-family: arial;font-size: 30px;grid-area: div3;}
 .opaco{ opacity: .5;}
 
-.box div:nth-child(4){border: 1px solid rgb(0, 255, 85); grid-area: div4;
+.box div:nth-child(4){ grid-area: div4;
    
     display: flex; 
     gap: 5%;
@@ -99,7 +99,7 @@
 }
 
 
-.box div:nth-child(5){border: 1px solid yellow;}
+
 .em{color:#8e7bef;  
 }
 
@@ -108,7 +108,7 @@
     grid-area: menu;
     height: 70vh;
     width: 35vw;
-    border: 1px solid black;
+   
     background-image: url(photo2.png);
     background-size: cover;
     
@@ -142,7 +142,7 @@
 .item3 { grid-area: section;
     
     background-color: #fcda68;
-    border: 1px solid rgb(183, 0, 255);
+    
     height: 820px;
     display: flex;
     align-items: center;
@@ -156,7 +156,7 @@
 .hanckook{
     height: 90%;
     width: 72vw;
-    border: 1px solid rgb(31, 219, 6);
+    
     display: grid;
     
     grid-template-areas: "tittle  Exp"
@@ -170,7 +170,7 @@
 
 .boxi{ 
     grid-area: tittle;
-    border: 1px solid orange;
+   
     display: flex;
     flex-direction: column;
    
@@ -181,7 +181,7 @@
 .boxi div:nth-child(2){ color: rgb(16, 15, 17); font-size: 20px;}
 .boxi > div{
  flex: auto;
- border: 1px solid rgb(226, 18, 18);
+ 
 }
 
 .datas{display: grid;
@@ -194,7 +194,7 @@
     .boxii div:nth-child(1){font-size: 2rem;}
     .boxii div:nth-child(2){font-size: 3rem;} 
     
-.datas>div{border: 1px solid rgb(226, 13, 13);}
+
 .boxii .datas div:nth-child(1){grid-area: fecha; display: flex;align-items: center;color: gray;border-bottom: 1px solid black;}
 .boxii .datas div:nth-child(2){grid-area: tittle;display: flex;align-items: flex-end;font-size: 25px;}
 .boxii .datas div:nth-child(3){grid-area: tittle2;display: flex;align-items: flex-start;font-size: 25px;border-bottom: 1px solid black;}
@@ -206,7 +206,7 @@
     "fecha tittle2";
     grid-template-columns: .5fr 1fr;
  }
- .data>div{border: 1px solid rgb(226, 13, 13);}
+
 .boxii .data div:nth-child(1){grid-area: fecha; display: flex;align-items: center;color: gray;border-bottom: 1px solid black;}
 .boxii .data div:nth-child(2){grid-area: tittle;display: flex;align-items: flex-end;font-size: 25px;}
 .boxii .data div:nth-child(3){grid-area: tittle2;display: flex;align-items: flex-start;font-size: 25px;border-bottom: 1px solid black;}
@@ -217,7 +217,7 @@
     "fecha tittle2";
     grid-template-columns: .5fr 1fr;
  }
- .dat>div{border: 1px solid rgb(226, 13, 13);}
+
 .boxii .dat div:nth-child(1){grid-area: fecha; display: flex;align-items: center;color: gray;}
 .boxii .dat div:nth-child(2){grid-area: tittle;display: flex;align-items: flex-end;font-size: 25px;}
 .boxii .dat div:nth-child(3){grid-area: tittle2;display: flex;align-items: flex-start;font-size: 25px;}
@@ -227,19 +227,19 @@
 
 .boxii{ 
     grid-area: Exp;
-    border: 1px solid black;
+   
     display: grid;
     
 }
 
 .boxii > div{
     flex: auto;
-    border: 1px solid black;
+   
    }
 
 .bom{ 
     grid-area: bom;
-    border: 1px solid orange;
+    
     font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
     margin-top:  4rem;
@@ -253,14 +253,14 @@
 }
 .nu{
     height: 90%;width: 72%;
-    border: 1px solid black;
+    
     display: flex;
     align-items: center; justify-content: center;
     gap: 10%;
     text-align: center;
     font-size: 20px;
 }
-.nu div {border: 1px solid black;
+.nu div {
          height: 72%;
          width: 90%;}
 
@@ -275,7 +275,7 @@
 /*section 4 */
 
 .item4 { grid-area: section2;
-     border: 1px solid rgb(235, 18, 119);
+     
      height: 60vh;
      display: flex;
      justify-content: center;
@@ -288,7 +288,7 @@
      .bukele{
         height: 90%;
         width: 72vw;
-        border: 1px solid black;
+       
         display: grid;
         grid-template-areas: "secto "
                              "mafu  "
@@ -301,13 +301,13 @@
 
     .secto{
         grid-area: secto;
-        border: 1px solid rgb(0, 119, 255);
+       
      
         font-size: 40px;
     }
     .mafu{
         grid-area: mafu;
-        border: 1px solid orange;
+        
        display: flex;
       gap: 8%;
       
@@ -332,13 +332,13 @@
      .conti{
         height: 90%;
         width: 72vw;
-        border: 1px solid black;
+       
       
      }
 
      .tit{
         grid-area: sec;
-        border: 1px solid black;
+       
         font-size: 40px;
      }
      
@@ -347,7 +347,7 @@
      .conts{
         
             grid-area: maf;
-            border: 1px solid orange;
+            
             display: flex;
             justify-content: center;
             align-items: center;
@@ -358,7 +358,7 @@
     .conts > div{
         height: 80%;
         width: 20%;
-        border: 1px solid black;
+       
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -369,7 +369,7 @@
 
  
 
-.item5 img{ border: 1px solid green; background-color: rgba(226, 225, 225, 0.836);border-radius: 10px;
+.item5 img{  background-color: rgba(226, 225, 225, 0.836);border-radius: 10px;
     height: 60px;}
 
 
@@ -377,7 +377,7 @@
 
 
 .item6 { grid-area: fin;
-    border: 1px solid orange;
+    
     height: 100%; 
       display: flex;
       justify-content: center;

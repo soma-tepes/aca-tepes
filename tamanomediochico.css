@@ -4,7 +4,7 @@
 
         display: grid;
         width: 98%;
-        border: 1px solid black;
+        /* border: 1px solid black; */
         grid-template-areas: "nav  "
                              "header "
                              "section "
@@ -20,7 +20,7 @@
 .item1 { grid-area: nav;
   
     width: 96vw;
-    border: 1px solid rgb(153, 0, 255);
+   
     display: flex;
     align-items: center;
     justify-content: center;
@@ -30,14 +30,14 @@
      
      .nav{
         width: 73vw;
-        border: 1px solid rgb(230, 9, 9);
+       
         display: flex;
         justify-content: center;
         gap: 1%;
         align-items: center;
         }
   
-      .nav > div{ border: 1px solid black;font-size: 20px; font-family: sans-serif;}
+      .nav > div{font-size: 20px; font-family: sans-serif;}
       .nav div:nth-child(1){ color:blueviolet}
       .nav div:hover{color:blueviolet}
 /*fin nav */
@@ -50,7 +50,7 @@
 
 /*section */
     .item2 {  grid-area: header;
-        border: 1px solid rgba(148, 122, 89, 0.137);
+       
         width: 96vw;
         height: auto;
         display: flex; 
@@ -64,7 +64,7 @@ padding-top: 30px;
 padding-bottom: 20px;
 height:auto;
 width: auto;
-border: 1px solid black;
+
 grid-template-areas: 
         "div "
         "div2 "
@@ -79,7 +79,7 @@ grid-template-areas:
 
 
 }
-.box > div{ border: 1px solid black;
+.box > div{ 
         
     justify-content: center;align-items: center;}
 
@@ -101,7 +101,7 @@ display: flex;
   justify-content: center;
 height:auto;
 width: auto;
-border: 1px solid black;
+
 background-image: url(photo.png);
 background-size: 50vw;
 background-position-x: center;
@@ -121,7 +121,7 @@ background-color: #7bb1ef;
 /*fin section 2*/
 
 
-.box > div{ border: 1px solid black;}
+
 .div1{font-family: 'Roboto', sans-serif;font-size: 100px; grid-area: div;
 
     font-weight: 700; 
@@ -130,7 +130,7 @@ background-color: #7bb1ef;
 .div3{font-family: arial;font-size: 30px;grid-area: div3;}
 .opaco{ opacity: .5;}
 
-.box div img{border: 1px solid rgb(0, 255, 85); grid-area: div4;
+.box div img{ grid-area: div4;
    
     display: flex; 
     gap: 5%;
@@ -139,7 +139,7 @@ background-color: #7bb1ef;
 }
 
 
-.box div:nth-child(5){border: 1px solid yellow;}
+
 .em{color:#8e7bef;  
 }
 
@@ -160,7 +160,7 @@ background-color: #7bb1ef;
 .item3 { grid-area: section;
   
      /* background-color: #f80a51;  */
-    border: 1px solid rgb(183, 0, 255);
+    
     height: 1300px;
     display: flex;
     align-items: center;
@@ -175,7 +175,7 @@ background-color: #7bb1ef;
 .hanckook{
     height: 90%;
     width: 89%;
-    border: 1px solid rgb(6, 141, 219);
+   
     display: grid;
     grid-template-areas: "tittle "
                          "Exp"
@@ -191,7 +191,7 @@ background-color: #7bb1ef;
 
 .boxi{ 
     grid-area: tittle;
-    border: 1px solid orange;
+ 
     display: flex;
     flex-direction: column;
    
@@ -202,7 +202,7 @@ background-color: #7bb1ef;
 .boxi div:nth-child(2){ color: rgb(16, 15, 17); font-size: 29px;}
 .boxi > div{
  flex: auto;
- border: 1px solid rgb(226, 18, 18);
+ 
 }
 
 .datas{display: grid;
@@ -215,7 +215,7 @@ background-color: #7bb1ef;
     .boxii div:nth-child(1){font-size: 25px;}
     .boxii div:nth-child(2){font-size: 3rem;} 
     
-.datas>div{border: 1px solid rgb(226, 13, 13);}
+
 .boxii .datas div:nth-child(1){grid-area: fecha; display: flex;align-items: center;color: gray;border-bottom: 1px solid black;}
 .boxii .datas div:nth-child(2){grid-area: tittle;display: flex;align-items: flex-end;font-size: 20px;}
 .boxii .datas div:nth-child(3){grid-area: tittle2;display: flex;align-items: flex-start;font-size: 20px;border-bottom: 1px solid black;}
@@ -227,7 +227,7 @@ background-color: #7bb1ef;
     "fecha tittle2";
     grid-template-columns: .5fr 1fr;
  }
- .data>div{border: 1px solid rgb(226, 13, 13);}
+ 
 .boxii .data div:nth-child(1){grid-area: fecha; display: flex;align-items: center;color: gray;border-bottom: 1px solid black;}
 .boxii .data div:nth-child(2){grid-area: tittle;display: flex;align-items: flex-end;font-size: 20px;}
 .boxii .data div:nth-child(3){grid-area: tittle2;display: flex;align-items: flex-start;font-size: 20px;border-bottom: 1px solid black;}
@@ -238,7 +238,7 @@ background-color: #7bb1ef;
     "fecha tittle2";
     grid-template-columns: .5fr 1fr;
  }
- .dat>div{border: 1px solid rgb(226, 13, 13);}
+ 
 .boxii .dat div:nth-child(1){grid-area: fecha; display: flex;align-items: center;color: gray;}
 .boxii .dat div:nth-child(2){grid-area: tittle;display: flex;align-items: flex-end;font-size: 20px;}
 .boxii .dat div:nth-child(3){grid-area: tittle2;display: flex;align-items: flex-start;font-size: 20px;}
@@ -248,19 +248,19 @@ background-color: #7bb1ef;
 
 .boxii{ 
     grid-area: Exp;
-   border: 1px solid black;
+   
     display: grid;
     
 }
 
 .boxii > div{
     flex: auto;
-    border: 1px solid black;
+    
    }
 
 .bom{ 
     grid-area: bom;
-    border: 1px solid rgb(21, 255, 0);
+   
     font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
     margin-top:  4rem;
@@ -273,7 +273,7 @@ background-color: #7bb1ef;
 
 }
 .nu{height: 90%;width: 70%;
-    border: 1px solid black;
+   
     display: flex;
     align-items: center; justify-content: center;
      gap: 10%;
@@ -281,7 +281,7 @@ background-color: #7bb1ef;
    font-size: 20px;
    flex-direction: column;
 }
-.nu div {border: 1px solid black;
+.nu div {
 height: 80%;width: 90%;}
 
 
@@ -295,7 +295,7 @@ height: 80%;width: 90%;}
 /*section 4 */
 
 .item4 { grid-area: section2;
-    border: 1px solid rgb(40, 18, 235);
+    
     height: 2000px;
     display: flex;
     justify-content: center;
@@ -309,7 +309,7 @@ height: 80%;width: 90%;}
     .bukele{
        height: 90%;
        width: 96vw;
-       border: 1px solid black;
+       
        display: grid;
        grid-template-areas: "secto "
                             "mafu  "
@@ -322,14 +322,14 @@ height: 80%;width: 90%;}
 
    .secto{
        grid-area: secto;
-       border: 1px solid rgb(0, 119, 255);
+       
      
        font-size: 40px;
       
    }
    .mafu{
        grid-area: mafu;
-       border: 1px solid rgb(0, 255, 34);
+       
       display: flex;
       flex-direction: column;
       gap: 1%;
@@ -349,24 +349,20 @@ height: 80%;width: 90%;}
 /*setion 5*/
      
 .item5 { grid-area: section3;
-    height: 20rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 96vw;
+    
      }
 
      .conti{
         height: 90%;
         width: 90%;
-        border: 1px solid rgb(0, 0, 0);
         
+    
     
      }
 
      .tit{
         grid-area: sec;
-        border: 1px solid black;
+        
         font-size: 40px;
         display: flex;
        justify-content: center;
@@ -377,7 +373,7 @@ height: 80%;width: 90%;}
      .conts{
         
             grid-area: maf;
-            border: 1px solid orange;
+           
             display: flex;
             justify-content: center;
             align-items: center;
@@ -388,7 +384,7 @@ height: 80%;width: 90%;}
     .conts > div{
         height: 80%;
         width: 20%;
-        border: 1px solid black;
+        
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -399,7 +395,7 @@ height: 80%;width: 90%;}
 
  
 
-.item5 img{ border: 1px solid green; background-color: rgba(226, 225, 225, 0.836);border-radius: 10px;
+.item5 img{  background-color: rgba(226, 225, 225, 0.836);border-radius: 10px;
     height: 60px;}
 
 
