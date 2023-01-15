@@ -175,9 +175,11 @@ background-color: #7bb1ef;
                          "bom  "
                          "bomi ";
                          
-           grid-template-columns: auto;
-           grid-template-rows: .1fr .1fr .1fr .1fr;
-          
+                         grid-template-columns: auto;
+                         grid-template-rows: .5fr .3fr .2fr .3fr;
+                        
+              gap:auto;
+             
 
 /* margin-right: 30px; */
 }
