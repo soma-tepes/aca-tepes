@@ -129,21 +129,14 @@ height:auto;
 width: auto;
 
 background-image: url(photo.png);
-background-size: 50vw;
+background-size: 80vmin;
 background-position-x: center;
 background-position-y: center;
 background-repeat: no-repeat;
 
 }
 
-/* .bot{ 
 
-    background-color: #8E7BEF;
-     color: white;
-      padding: 2% 17%; font-size: 20px;
-    display: flex; gap: 10%;
-}
- */
 
 /*fin section 2*/
 
@@ -154,21 +147,22 @@ background-repeat: no-repeat;
   
     /* background-color: #f80a51; */
    
-    height: 1500px;
+    height: auto;
     display: flex;
     align-items: center;
     justify-content: center;
    width:98vw;
-   margin: -10px;
+ 
     /*  */
 
 }
 
 
 .hanckook{
-    height: 90%;
+    height: auto;
     width: 89%;
-    
+    padding-top: 70px;
+    padding-bottom: 70px;
     display: grid;
     grid-template-areas: "tittle "
                          "Exp"
@@ -176,7 +170,7 @@ background-repeat: no-repeat;
                          "bomi ";
                          
            grid-template-columns: auto;
-           grid-template-rows: 1fr 1fr .1fr .1fr;
+           grid-template-rows: .3fr .3fr .1fr .2fr;
           
 gap:auto;
 /* margin-right: 30px; */
@@ -205,11 +199,11 @@ gap:auto;
        grid-template-columns: .5fr 1fr;
     }
 
-    .boxii div:nth-child(1){font-size: 25px;}
-    .boxii div:nth-child(2){font-size: 3rem;} 
+    .boxii div:nth-child(1){font-size: 16px;}
+    .boxii div:nth-child(2){font-size: 12px;} 
     
 
-.boxii .datas div:nth-child(1){grid-area: fecha; display: flex;align-items: center;color: gray;border-bottom: 1px solid black;}
+.boxii .datas div:nth-child(1){grid-area: fecha; display: flex;align-items: center;color: rgb(1, 1, 1);border-bottom: 1px solid black;font-size: 18px;}
 .boxii .datas div:nth-child(2){grid-area: tittle;display: flex;align-items: flex-end;font-size: 20px;}
 .boxii .datas div:nth-child(3){grid-area: tittle2;display: flex;align-items: flex-start;font-size: 20px;border-bottom: 1px solid black;}
 
@@ -221,7 +215,7 @@ gap:auto;
     grid-template-columns: .5fr 1fr;
  }
  
-.boxii .data div:nth-child(1){grid-area: fecha; display: flex;align-items: center;color: gray;border-bottom: 1px solid black;}
+.boxii .data div:nth-child(1){grid-area: fecha; display: flex;align-items: center;color: rgb(9, 9, 9);border-bottom: 1px solid black;font-size: 18px;}
 .boxii .data div:nth-child(2){grid-area: tittle;display: flex;align-items: flex-end;font-size: 20px;}
 .boxii .data div:nth-child(3){grid-area: tittle2;display: flex;align-items: flex-start;font-size: 20px;border-bottom: 1px solid black;}
 
@@ -232,7 +226,7 @@ gap:auto;
     grid-template-columns: .5fr 1fr;
  }
  
-.boxii .dat div:nth-child(1){grid-area: fecha; display: flex;align-items: center;color: gray;}
+.boxii .dat div:nth-child(1){grid-area: fecha; display: flex;align-items: center;color: rgb(14, 14, 14);font-size: 18px;}
 .boxii .dat div:nth-child(2){grid-area: tittle;display: flex;align-items: flex-end;font-size: 20px;}
 .boxii .dat div:nth-child(3){grid-area: tittle2;display: flex;align-items: flex-start;font-size: 20px;}
 
