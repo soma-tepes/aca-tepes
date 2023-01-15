@@ -144,21 +144,22 @@ background-repeat: no-repeat;
 .item3 { grid-area: section;
   
     /* background-color: #f80a51; */
-   
+ 
     height: auto;
     display: flex;
     align-items: center;
     justify-content: center;
-   width:98vw;
- 
+   width:100vw;
+   
     /*  */
 
 }
 
 
 .hanckook{
+    
     height: auto;
-    width: 89%;
+    width: 85%;
     padding-top: 70px;
     padding-bottom: 70px;
     display: grid;

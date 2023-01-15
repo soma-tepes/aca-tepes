@@ -157,17 +157,10 @@ background-color: #7bb1ef;
 /*section 3*/
 
 
-.item3 { grid-area: section;
+.item3 { 
   
-     /* background-color: #f80a51;  */
-    
-    height: 1300px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-   width:98vw;
-   margin-left: -25px; margin-right: -25px;
-    
+   margin-left: -25px; margin-right: -50px;
+    height: 100%;
 
 }
 
