@@ -23,8 +23,8 @@
 
 
  .item1   nav  {
-    
-    background-color: rgba(26, 28, 27, 0.866);
+    background-color: #00536f;
+    opacity: .9;
    position: fixed;
     width: 250px;
     height: 100vh;
@@ -38,11 +38,12 @@
 }
 
 .item1 ul{display: flex; flex-direction: column;
-margin-top: 20px;}
+        margin-top: 10px;}
 
 .item1 ul li{
-    margin-top: 30px;
+    margin-top: 15px;
     margin-left: 0;
+    margin-left: -11vw;
 }
 
 .item1 ul li a{
@@ -76,9 +77,8 @@ margin-top: 20px;}
 
 /*section */
     .item2 {  grid-area: header;
-        
-        width: 96vw;
-        height: auto;
+     
+      
         display: flex; 
         align-items: center;
         justify-content: center;
@@ -86,10 +86,8 @@ margin-top: 20px;}
         
 .box{ 
 display: grid;
-padding-top: 1px;
+max-height: 90vh;
 
-height:auto;
-width: auto;
 
 grid-template-areas: 
         "div "
@@ -100,7 +98,7 @@ grid-template-areas:
         "div5 "
         ;
         
-        gap: auto;
+        
       
 
 
@@ -170,7 +168,7 @@ background-repeat: no-repeat;
                          "bomi ";
                          
            grid-template-columns: auto;
-           grid-template-rows: .3fr .3fr .1fr .2fr;
+           grid-template-rows: .5fr .3fr .2fr .3fr;
           
 gap:auto;
 /* margin-right: 30px; */
@@ -185,7 +183,7 @@ gap:auto;
 
     
 }
-.boxi div:nth-child(1){ color: rgb(5, 5, 5); font-size: 65px;}
+.boxi div:nth-child(1){ color: rgb(5, 5, 5); font-size: 50px;}
 .boxi div:nth-child(2){ color: rgb(16, 15, 17); font-size: 29px;}
 .boxi > div{
  flex: auto;
