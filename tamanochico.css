@@ -17,35 +17,60 @@
 
 
 /*nav */
-.item1 { grid-area: nav;
-  
-    width: 96vw;
-    /* border: 1px solid rgb(153, 0, 255); */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-   
 
-     }
-     
-     .nav{
-        width: 70vw;
-        /* border: 1px solid rgb(230, 9, 9); */
-        display: flex;
-        justify-content: center;
-        gap: 1%;
-        align-items: center;
-        }
-  
-      .nav > div{ font-size: 18px; font-family: sans-serif;}
-      .nav div:nth-child(2){ font-size: 14px; text-align: center;}
-      .nav div:nth-child(1){ color:blueviolet}
-      .nav div:hover{color:blueviolet}
 /*fin nav */
 
 
 
+ .item1   nav  {
+    
+    background-color: rgba(26, 28, 27, 0.866);
+   position: fixed;
+    width: 250px;
+    height: 100vh;
+    right: -350px;
+    top: 0;
+    padding: 40px;
+    align-items: flex-start;
+    z-index: 1;
+    transition: all 300ms;
+   
+}
 
+.item1 ul{display: flex; flex-direction: column;
+margin-top: 20px;}
+
+.item1 ul li{
+    margin-top: 30px;
+    margin-left: 0;
+}
+
+.item1 ul li a{
+    color: white;
+}
+#menu {
+    position: fixed;
+    
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(89, 86, 86, 0.606);
+    display: none;
+    
+}
+
+.item1 #hambu{
+    width: 50px; height: 50px;
+    display: flex;
+     background: rgba(91, 94, 93, 0.1);
+     align-items: center;
+     justify-content: center;
+    font-size: 24px;
+    border-radius: 24px;
+    cursor: pointer;transition: all 300ms;
+}
+.item1 #hambu:hover{ background:rgba(247, 3, 3, 0.1)}
 
 
 
