@@ -99,7 +99,7 @@ grid-template-areas:
         "div6"
         "div5 "
         ;
-        grid-template-rows: .5fr .5fr .5fr .5fr 5fr .5fr;
+        
         gap: auto;
       
 
